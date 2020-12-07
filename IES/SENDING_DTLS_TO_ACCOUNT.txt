@@ -1,0 +1,10 @@
+Hi  {FNAME}{LNAME} :
+<br/>
+
+Welcome to  IES application, Your registration is completed succesfully.
+Your username and password is {UNAME}, {PWD}
+Please use below link to login into application.<br/>
+
+
+<a href='http://localhost:8080/loadunlockAccform?email={EMAIL}'></a> <br/>
+<br/>

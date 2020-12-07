@@ -1,0 +1,38 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    password: 9030
+    url: jdbc:mysql://localhost:3307/USER_DTLS
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+      dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: Vikram@789
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            trust: smtp.gmail.com
+          starttls:
+            enable : true
+    username: reddyvikram640@gmail.com
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+  app:
+    messages:
+      regSuccess: Registration is Succesfull  
+      regFailed: Registration failed
+          
